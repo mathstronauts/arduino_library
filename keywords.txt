@@ -1,0 +1,31 @@
+#######################################
+# Syntax Coloring Map Servo
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+conditionalDelay	KEYWORD2
+servoWrite	KEYWORD2
+servoMode	KEYWORD2
+ultrasonicDistance	KEYWORD2
+hold	KEYWORD2
+PWM	KEYWORD2
+servoSweep	KEYWORD2
+colourDetection	KEYWORD2
+digitalJSRead	KEYWORD2
+increaseServoAngle	KEYWORD2
+decreaseServoAngle	KEYWORD2
+initializeServo	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+RED	LITERAL1
+GREEN	LITERAL1
+BLUE	LITERAL1
