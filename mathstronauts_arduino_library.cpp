@@ -13,7 +13,7 @@
 
 #include "Arduino.h"
 #include "Servo.h"
-#include "Mathstronauts_Library_4.0.h"
+#include "mathstronauts_arduino_library.h"
 /*
  * To use as conditional delay, functions exists the desired number of changes occurred at the input digital pin
  * No operations occur while function is running
