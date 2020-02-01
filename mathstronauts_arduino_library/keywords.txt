@@ -21,6 +21,7 @@ digitalJSRead	KEYWORD2
 increaseServoAngle	KEYWORD2
 decreaseServoAngle	KEYWORD2
 initializeServo	KEYWORD2
+nDeltaDelay	KEYWORD2
 
 #######################################
 # Constants (LITERAL1)

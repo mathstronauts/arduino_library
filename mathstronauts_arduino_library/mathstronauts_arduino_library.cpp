@@ -9,6 +9,8 @@
  * Author: Richard
  *
  * Created on December 6, 2016, 1:22 PM
+ * Last modified on January 31, 2020, 10:00 PM
+ * Version 5.2
  */
 
 #include "Arduino.h"
@@ -24,7 +26,14 @@ int GREEN;
 int BLUE;
 
 Servo servoMain; 
-void conditionalDelay(int pin, int nChanges){
+void conditionalDelay(int pin, int stopValue){
+	int pinState = digitalRead(pin);
+	while (pinState != stopValue){
+      pinState = digitalRead(pin);
+    }
+}
+
+void nDeltaDelay(int pin, int nChanges){
     int pinState;
     pinState = digitalRead(pin);
     if (nChanges ==1){

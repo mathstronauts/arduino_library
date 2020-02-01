@@ -9,6 +9,8 @@
  * Author: Richard
  *
  * Created on January 22, 2017, 3:20 PM
+ * Last modified on January 31, 2020 10:00 PM
+ * Version 5.2
  */
 
 #ifndef MATHSTRONAUTS_LIBRARY_H
@@ -51,7 +53,8 @@ extern int GREEN;
 extern int BLUE;
 
 void digitalMotor(int pin, int Action);
-void conditionalDelay(int pin, int nChanges);
+void conditionalDelay(int pin, int stopValue);
+void nDeltaDelay(int pin, int nChanges);
 void servoMode(int pin, int X);       
 void servoWrite(int angle);
 float ultrasonicDistance(int trig, int echo);
